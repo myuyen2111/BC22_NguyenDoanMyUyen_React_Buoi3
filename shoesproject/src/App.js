@@ -1,13 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import dataJson from './Data/data.json';
-import ShoesStore from './Props/ShoesStore';
-
+import logo from "./logo.svg";
+import "./App.css";
+import ShoesStore from "./Props/ShoesStore";
 
 function App() {
   return (
     <div>
-     <ShoesStore/>
+      <ShoesStore />
     </div>
   );
 }
