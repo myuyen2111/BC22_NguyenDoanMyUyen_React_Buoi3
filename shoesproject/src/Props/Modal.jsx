@@ -30,7 +30,7 @@ export default class Modal extends Component {
                   <h5 className="text-dark">Description: </h5>
                   <p>{content.description}</p>
                   <p>
-                    <span className="text-success">In Stock: </span>
+                    <span className="text-success">Available: </span>
                     {content.quantity}
                   </p>
                   </div>
